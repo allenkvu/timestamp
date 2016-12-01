@@ -1,0 +1,14 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Api that returns time in Unix timestamp and the natural language form of that date",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "AllenKVu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
