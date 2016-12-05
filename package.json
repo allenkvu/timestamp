@@ -4,11 +4,25 @@
   "description": "Api that returns time in Unix timestamp and the natural language form of that date",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "author": "AllenKVu",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
-  }
+    "dev": "^0.1.3",
+    "express": "^4.14.0",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-imagemin": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allenkvu/timestamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allenkvu/timestamp/issues"
+  },
+  "homepage": "https://github.com/allenkvu/timestamp#readme"
 }
