@@ -2,6 +2,8 @@ var express = require('express')
 
 var app = express()
 
+var port = process.env.PORT || 8080;
+
 app.get('/:query', function(req, res) {
            var data = req.params.query;
            var unix = 'null';
@@ -37,7 +39,8 @@ app.get('/:query', function(req, res) {
  function isNumeric(n) {
       return !isNaN(parseFloat(n)) && isFinite(n);
     }
-    
-app.listen(8080, function () {
-  console.log('Example app listening on port 8080!')
+
+
+app.listen(port, function () {
+  console.log('Example app listening on port'  + port + '!')
 })
